@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeaponShow">
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="775"
+        android:layout_height="510"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:srcCompat="@drawable/de_nuke" />
+
+    <ImageView
+        android:id="@+id/Background2"
+        android:layout_width="360"
+        android:layout_height="520"
+        android:background="#e6585858" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Milspec_Grade_Button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:srcCompat="@drawable/AK47EliteBuild_FULL"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AK-47 | "
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:text="             Elite Build"
+        android:textColor="#4b69ff"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="58dp"
+        android:text="It has been custom painted using a combination of hydrographics and careful stenciling and detailed with heat-transfer decals."
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="                                                 Tread softly Naomi... people in your line of work aren't known for their longevity - The Shield and The Serpent Part 2"
+        android:textStyle="2"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Chroma 2 Case. Part of the "Chroma 2" Collection'
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+</android.support.constraint.ConstraintLayout>

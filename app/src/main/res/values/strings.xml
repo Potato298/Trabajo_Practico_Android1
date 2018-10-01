@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CS:GO Items Database</string>
+    <string name="ExplainText">View weapons by:</string>
+    <string name="ViewByWeaponType">Weapon Type</string>
+    <string name="ViewByWeaponCase">Weapon Case</string>
+    <string name="ViewByCollection">Collection</string>
+    <string name="title_activity_weapon_collection_results">weapon_collection_results</string>
+</resources>

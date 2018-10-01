@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeaponCases">
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="775"
+        android:layout_height="510"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:srcCompat="@drawable/de_nuke" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360"
+        android:layout_height="520"
+        android:background="#e6585858" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Weapon Case Name..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="345"
+        android:layout_height="456dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="74dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    style="@android:style/Widget.Holo.Light.ImageButton"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/Consumer_Grade_Button"
+                    app:srcCompat="@drawable/Chroma3_50" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="12dp"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/Consumer_Grade_Button"
+                    app:srcCompat="@drawable/CSGOWeaponCase3_50" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/NAWP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chroma 3"
+                    tools:layout_editor_absoluteX="36dp"
+                    tools:layout_editor_absoluteY="246dp" />
+
+                <TextView
+                    android:id="@+id/NAWP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:text="CS:GO Weapon Case 3"
+                    tools:layout_editor_absoluteX="216dp"
+                    tools:layout_editor_absoluteY="246dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    style="@android:style/Widget.Holo.Light.ImageButton"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/Consumer_Grade_Button"
+                    app:srcCompat="@drawable/Hunstman_50" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/Consumer_Grade_Button"
+                    app:srcCompat="@drawable/eSports2014Summe_50" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/NAWP4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hunstman"
+                    tools:layout_editor_absoluteX="36dp"
+                    tools:layout_editor_absoluteY="418dp" />
+
+                <TextView
+                    android:id="@+id/NAWP5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:text="eSports 2014 Summer"
+                    tools:layout_editor_absoluteX="225dp"
+                    tools:layout_editor_absoluteY="418dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    style="@android:style/Widget.Holo.Light.ImageButton"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/Consumer_Grade_Button"
+                    app:srcCompat="@drawable/eSports2013_50" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/Consumer_Grade_Button"
+                    app:srcCompat="@drawable/OperationHydra_50" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/NAWP3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="eSports 2013"
+                    tools:layout_editor_absoluteX="36dp"
+                    tools:layout_editor_absoluteY="418dp" />
+
+                <TextView
+                    android:id="@+id/NAWP6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:text="Operation Hydra"
+                    tools:layout_editor_absoluteX="225dp"
+                    tools:layout_editor_absoluteY="418dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

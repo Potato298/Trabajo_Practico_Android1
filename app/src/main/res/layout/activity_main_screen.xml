@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+    <Button
+        android:id="@+id/ButtonVBWeaponsType"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="190dp"
+        android:background="#d2717171"
+        android:text="@string/ViewByWeaponType"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonVBCase"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="130dp"
+        android:background="#d2717171"
+        android:text="@string/ViewByWeaponCase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonVBCollection"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="70dp"
+        android:background="#d2717171"
+        android:text="@string/ViewByCollection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="775"
+        android:layout_height="510"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:srcCompat="@drawable/de_nuke" />
+
+    <TextView
+        android:id="@+id/SelectText"
+        android:layout_width="130"
+        android:layout_height="30"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginStart="200dp"
+        android:background="#96717171"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:text="@string/ExplainText"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonVBWeaponsType"
+        app:layout_constraintEnd_toStartOf="@+id/Background"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d2717171"
+        android:padding="20dp"
+        app:srcCompat="@drawable/CSGOLogo"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+</android.support.constraint.ConstraintLayout>
