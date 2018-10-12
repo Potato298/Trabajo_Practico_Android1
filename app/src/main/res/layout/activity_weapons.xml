@@ -60,6 +60,7 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:background="@drawable/Covert_Grade_Button"
+                    android:onClick="WeaponResult1"
                     app:srcCompat="@drawable/AWPDragonlore" />
 
 
@@ -70,6 +71,7 @@
                     android:layout_marginLeft="12dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="WeaponResult2"
                     app:srcCompat="@drawable/UMP45Indigo" />
 
             </TableRow>
@@ -108,6 +110,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Classified_Grade_Button"
+                    android:onClick="WeaponResult3"
                     app:srcCompat="@drawable/USPOrion" />
 
                 <ImageButton
@@ -118,6 +121,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Milspec_Grade_Button"
+                    android:onClick="WeaponResult4"
                     app:srcCompat="@drawable/AK47EliteBuild" />
             </TableRow>
 
@@ -154,6 +158,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Milspec_Grade_Button"
+                    android:onClick="WeaponResult6"
                     app:srcCompat="@drawable/FiveSevenCapillary" />
 
                 <ImageButton
@@ -164,6 +169,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Milspec_Grade_Button"
+                    android:onClick="WeaponResult7"
                     app:srcCompat="@drawable/SG553Atlas" />
             </TableRow>
 

@@ -57,6 +57,7 @@
                     android:layout_height="110dp"
                     android:background="@drawable/Restricted_Grade_Button"
                     android:paddingLeft="10dp"
+                    android:onClick="CollectionWeaponResult1"
                     app:srcCompat="@drawable/AWPWornGod" />
 
 
@@ -67,6 +68,7 @@
                     android:layout_marginLeft="12dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Restricted_Grade_Button"
+                    android:onClick="CollectionWeaponResult2"
                     app:srcCompat="@drawable/CZ75APolePosition" />
 
             </TableRow>
@@ -105,6 +107,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Classified_Grade_Button"
+                    android:onClick="CollectionWeaponResult3"
                     app:srcCompat="@drawable/FAMASDjinn" />
 
                 <ImageButton
@@ -115,6 +118,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Classified_Grade_Button"
+                    android:onClick="CollectionWeaponResult4"
                     app:srcCompat="@drawable/FiveSevenMonkeyBussines" />
             </TableRow>
 
@@ -151,6 +155,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Covert_Grade_Button"
+                    android:onClick="CollectionWeaponResult5"
                     app:srcCompat="@drawable/Mac10NeonRider" />
 
                 <ImageButton
@@ -161,6 +166,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Milspec_Grade_Button"
+                    android:onClick="CollectionWeaponResult6"
                     app:srcCompat="@drawable/SawedOffOrigami" />
             </TableRow>
 

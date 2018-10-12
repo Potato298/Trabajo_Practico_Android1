@@ -13,6 +13,7 @@
         android:layout_marginBottom="190dp"
         android:background="#d2717171"
         android:text="@string/ViewByWeaponType"
+        android:onClick="WeaponTypeShowcase"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -24,6 +25,7 @@
         android:layout_marginBottom="130dp"
         android:background="#d2717171"
         android:text="@string/ViewByWeaponCase"
+        android:onClick="CaseShowcase"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -35,6 +37,7 @@
         android:layout_marginBottom="70dp"
         android:background="#d2717171"
         android:text="@string/ViewByCollection"
+        android:onClick="CollectionShowcase"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -45,10 +48,10 @@
         android:layout_height="510"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282"
+        app:layout_constraintVertical_bias="0.26999998"
         app:srcCompat="@drawable/de_nuke" />
 
     <TextView

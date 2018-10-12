@@ -59,6 +59,7 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="CaseResult1"
                     app:srcCompat="@drawable/Chroma3_50" />
 
 
@@ -69,6 +70,7 @@
                     android:layout_marginLeft="12dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="CaseResult2"
                     app:srcCompat="@drawable/CSGOWeaponCase3_50" />
 
             </TableRow>
@@ -107,6 +109,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="CaseResult3"
                     app:srcCompat="@drawable/Hunstman_50" />
 
                 <ImageButton
@@ -117,6 +120,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="CaseResult4"
                     app:srcCompat="@drawable/eSports2014Summe_50" />
             </TableRow>
 
@@ -153,6 +157,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="CaseResult5"
                     app:srcCompat="@drawable/eSports2013_50" />
 
                 <ImageButton
@@ -163,6 +168,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Consumer_Grade_Button"
+                    android:onClick="CaseResult6"
                     app:srcCompat="@drawable/OperationHydra_50" />
             </TableRow>
 

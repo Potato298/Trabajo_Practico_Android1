@@ -55,6 +55,7 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:background="@drawable/Milspec_Grade_Button"
+                    android:onClick="WeaponCaseResult1"
                     app:srcCompat="@drawable/USPBlueprint" />
 
 
@@ -65,6 +66,7 @@
                     android:layout_marginLeft="12dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Restricted_Grade_Button"
+                    android:onClick="WeaponCaseResult1"
                     app:srcCompat="@drawable/P90DeathGrip" />
 
             </TableRow>
@@ -103,6 +105,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Restricted_Grade_Button"
+                    android:onClick="WeaponCaseResult3"
                     app:srcCompat="@drawable/P2000Woodsman" />
 
                 <ImageButton
@@ -113,6 +116,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Milspec_Grade_Button"
+                    android:onClick="WeaponCaseResult4"
                     app:srcCompat="@drawable/MAG7HardWater" />
             </TableRow>
 
@@ -149,6 +153,7 @@
                     android:layout_height="110dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/Classified_Grade_Button"
+                    android:onClick="WeaponCaseResult6"
                     app:srcCompat="@drawable/DualBerettasCobraStrike_30" />
 
                 <ImageButton
@@ -159,6 +164,7 @@
                     android:layout_marginTop="20dp"
                     android:adjustViewBounds="false"
                     android:background="@drawable/Classified_Grade_Button"
+                    android:onClick="WeaponCaseResult7"
                     app:srcCompat="@drawable/M4A4Hellfire_30" />
             </TableRow>
 
